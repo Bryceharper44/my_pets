@@ -1,0 +1,51 @@
+/*removes margin in the whole document*/
+body{
+    margin: 0px;
+    background-color: hsl(276, 96%, 80%);
+    font-size: 25px;
+}
+
+/*adds margins to main body of page*/
+main{
+    margin: 0px 20px 0px 20px;
+}
+
+/*Alters h1 element aligning text*/ 
+h1{
+    text-align: center;
+}
+
+img{
+    height: 250px;
+    width: 300px;
+    float: left;
+    object-fit: fill;
+}
+
+/*Alters navbar listed elements*/
+#navbar ul{
+    list-style-type: none; /*removes bulletpoints*/
+    background-color: hsl(0, 0%, 25%); /*changes background color*/
+    padding: 0px; /*removes padding */
+    margin: 0px; /*removes margin*/
+    overflow: hidden; /*hides overflow*/
+}
+
+/*Alters navbar linked elements*/
+#navbar a{
+    color: white; /*makes text white*/
+    text-decoration: none; /*removes underlines*/
+    padding: 15px; /*spaces the elements properly between each other*/
+    display: block; /*Makes the element fill the whole box and can be selected from whole box*/
+    text-align: center; /*aligns text*/
+}
+
+/*Alters navbar anchor elements when hovered over*/
+#navbar a:hover{
+    background-color: hsl(0, 0%, 10%); /*makes anchor elements darker upon hovering*/
+}
+
+/*alters listed elements in the navbar*/
+#navbar li{
+    float: left; /*floats elements from vertical to horizontal from the left*/
+}
